@@ -3,7 +3,7 @@ package models
 import play.api.db._
 import play.api.Play.current
 import play.api.libs.json._
-import scala.slick.driver.MySQLDriver.simple._
+import scala.slick.driver.H2Driver.simple._
 import play.api.libs.json.JsObject
 
 case class Wine(
